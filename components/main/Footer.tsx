@@ -17,7 +17,7 @@ const Footer = () => {
       <div className='w-full h-full flex flex-col items-center justify-center m-auto'>
         <div className='w-full h-full flex flex-row items-center justify-around flex-wrap'>
 
-            <div className='min-w-[200px] h-auto flex flex-col items-center justify-start'>
+            <div className='min-w-[200px] h-auto flex flex-col py-10 items-center justify-start'>
                 <div className='font-bold text-[16px] '>
                     Community
                 </div>
@@ -35,7 +35,7 @@ const Footer = () => {
                 </a>
             </div>
 
-            <div className='min-w-[200px] h-auto flex flex-col items-center justify-start'>
+            <div className='min-w-[200px] h-auto flex flex-col py-10  items-center justify-start'>
                 <div className='font-bold text-[16px]'>
                     Social Media
                 </div>
@@ -53,7 +53,7 @@ const Footer = () => {
                 </a >
             </div>
 
-            <div className='min-w-[200px] h-auto flex flex-col items-center justify-start'>
+            <div className='min-w-[200px] h-auto flex flex-col py-10  items-center justify-start'>
                 <div className='font-bold text-[16px]'>
                     About
                 </div>
