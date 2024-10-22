@@ -12,7 +12,7 @@ const ProjectCard = ({src, title, description, href}: Props) => {
 
   return (
     <div className='relative z-50 overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] opacity-70 hover:opacity-100 transition-all cursor-pointer hover:scale-105 hover:-translate-y-1 duration-300'>
-        <a href={href}>
+        <a href={href} target="_blank">
         <Image 
             src={src}
             alt="title"

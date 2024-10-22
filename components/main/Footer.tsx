@@ -21,33 +21,33 @@ const Footer = () => {
                 <div className='font-bold text-[16px] '>
                     Community
                 </div>
-                <a href="#" className='flex flex-row items-center my-[15px] cursor-text hover:text-[#bf97ff70] transition-colors'>
+                <p  className='flex flex-row items-center my-[15px] cursor-text hover:text-[#bf97ff70] transition-colors'>
                     <FaYoutube />
                     <span className='text-[15px] ml-[6px] '>Youtube</span>
-                </a>
-                <a href="https://github.com/MatiWK"  className='flex flex-row items-center my-[15px] cursor-pointer hover:text-[#bf97ff70] transition-colors'>
+                </p>
+                <a href="https://github.com/MatiWK" target="_blank"    className='flex flex-row items-center my-[15px] cursor-pointer hover:text-[#bf97ff70] transition-colors'>
                     <RxGithubLogo/>
                     <span className='text-[15px] ml-[6px] '>Github</span>
                 </a >
-                <a href="#" className='flex flex-row items-center my-[15px] cursor-text hover:text-[#bf97ff70] transition-colors'>
+                <p  className='flex flex-row items-center my-[15px] cursor-text hover:text-[#bf97ff70] transition-colors'>
                     <RxDiscordLogo />
                     <span className='text-[15px] ml-[6px] '>Discord</span>
-                </a>
+                </p>
             </div>
 
             <div className='min-w-[200px] h-auto flex flex-col py-10  items-center justify-start'>
                 <div className='font-bold text-[16px]'>
                     Social Media
                 </div>
-                <a href="https://www.instagram.com/matiweltrowskik/" className='flex flex-row items-center my-[15px] cursor-pointer hover:text-[#bf97ff70] transition-colors'>
+                <a href="https://www.instagram.com/matiweltrowskik/" target="_blank" className='flex flex-row items-center my-[15px] cursor-pointer hover:text-[#bf97ff70] transition-colors'>
                     <RxInstagramLogo />
                     <span className='text-[15px] ml-[6px] '>Instagram</span>
                 </a>
-                <a href="#" className='flex flex-row items-center my-[15px] cursor-text hover:text-[#bf97ff70] transition-colors'>
+                <p  className='flex flex-row items-center my-[15px] cursor-text hover:text-[#bf97ff70] transition-colors'>
                     <RxTwitterLogo/>
                     <span className='text-[15px] ml-[6px] '>Twitter</span>
-                </a >
-                <a href="https://www.linkedin.com/in/mateusz-weltrowski-knopik-7740aa274/" className='flex flex-row items-center my-[15px] cursor-pointer hover:text-[#bf97ff70] transition-colors'>
+                </p >
+                <a href="https://www.linkedin.com/in/mateusz-weltrowski-knopik-7740aa274/" target="_blank" className='flex flex-row items-center my-[15px] cursor-pointer hover:text-[#bf97ff70] transition-colors'>
                     <RxLinkedinLogo />
                     <span className='text-[15px] ml-[6px] '>Linkedin</span>
                 </a >
@@ -57,15 +57,15 @@ const Footer = () => {
                 <div className='font-bold text-[16px]'>
                     About
                 </div>
-                <a href="#" className='flex flex-row items-center my-[15px] cursor-text hover:text-[#bf97ff70] transition-colors'>
+                <p  className='flex flex-row items-center my-[15px] cursor-text hover:text-[#bf97ff70] transition-colors'>
                     <span className='text-[15px] ml-[6px] '>Contact me</span>
-                </a >
-                <a href="#" className='flex flex-row items-center my-[15px] cursor-text hover:text-[#bf97ff70] transition-colors'>
+                </p >
+                <p  className='flex flex-row items-center my-[15px] cursor-text hover:text-[#bf97ff70] transition-colors'>
                     <span className='text-[15px] ml-[6px] '>+48-605-500-106</span>
-                </a >
-                <a href="#" className='flex flex-row items-center my-[15px] cursor-text hover:text-[#bf97ff70] transition-colors'>
+                </p >
+                <p  className='flex flex-row items-center my-[15px] cursor-text hover:text-[#bf97ff70] transition-colors'>
                     <span className='text-[15px] ml-[6px] '>mweltrowskik@gmail.com</span>
-                </a >
+                </p >
             </div>
         </div> 
 
