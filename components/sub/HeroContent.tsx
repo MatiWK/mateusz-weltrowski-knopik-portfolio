@@ -10,12 +10,16 @@ const HeroContent = () => {
     <motion.div
     initial="hidden"
     animate="visible"
-    className='flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]'
+    className='flex flex-row items-center justify-center px-20 mt-40 w-full z-[20] '
     >
-        <div className='h-full w-full flex flex-col gap-5 justify-center m-auto text-start'>
+        <div className='flex flex-row w-full items-center justify-center '>
+
+        
+        <div className='h-full  flex flex-col gap-5  justify-center m-auto text-start '>
+            
             <motion.div 
             variants={slideInFromTop}
-            className='Welcome-box py-[15px] px-[7px] border border-[#7042f88b] opacity-[0.9]'
+            className='Welcome-box py-[15px]   px-[7px] border border-[#7042f88b] opacity-[0.9]'
             >
                 
                 <SparklesIcon className='text-[#b49bff] mr-[10px] h-5 w-5' />
@@ -47,6 +51,7 @@ const HeroContent = () => {
             </motion.a>
             
         </div>
+        </div>
         <motion.div
             variants={slideInFromRight(0.8)}
             className='w-full h-full hidden md:flex justify-center items-center'
@@ -58,7 +63,7 @@ const HeroContent = () => {
                 width={650}
                 /> 
 
-            </motion.div>
+        </motion.div>
       
     </motion.div>
   )
